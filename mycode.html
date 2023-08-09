@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML WORKSHOP</title>
+        <!-- Extenal Styling -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Internal Styling -->
+        <!-- <style>
+            p{
+                color: blue;
+            }
+            ol{
+                background-color: yellow;
+            }
+        </style> -->
+    </head>
+    <body>
+        <!-- header -->
+        <!-- CSS Selectors  id(#), class(.), type(p, h1, img) -->
+        <header>
+            <nav class="myNav">
+                <ul>
+                    <li>
+                        <!-- Inline Styling -->
+                        <a class="one" href="./index2.html">Home</a>
+                    </li>
+                    <li>
+                        <a id="abc" href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <!-- image -->
+                <img id="myImage" src="" alt="computer">
+                <p>
+                    "I'm passionate with the new technologies, so I choose the web development because it's a world where every thing move so fast, there is always something new to learn, every day is a new challenge for me."
+                </p>
+            </div>
+        </section>
+        <section>
+            <ol>
+                <li>Name: Benjamin</li>
+                <li>Last Name: Chukwu</li>
+                <li>Email: chukwubenjamin05@gmail.com</li>
+                <li>Phone Number: 07063211130</li>
+                <li>
+                    "Academic Background: "
+                    <ol>
+                        <li>GoMyCode Certificate</li>
+                        <li>Computer Science Bachelor Degree</li>
+                    </ol>
+                </li>
+            </ol>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7t3lA_D9vYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section>
+            <form id="contact">
+                <label>Full name:</label>
+                <input type="text" name="Fullname" placeholder="Name">
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="example@gmail.com">
+                <label>Phone Number</label>
+                <input type="number" name="phonenUmber">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </body>
+</html>
